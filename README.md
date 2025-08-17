@@ -1,5 +1,3 @@
-### **README.md**
-
 # 💻 Projeto de Automação de Testes com Cypress
 
 Este projeto de automação de testes foi desenvolvido como parte da **Academia QE da Accenture - 2025**. O objetivo é validar as funcionalidades de cadastro, busca, e manipulação de dados na página de Web Tables do DemoQA, garantindo a qualidade e a estabilidade da aplicação através de testes automatizados.
@@ -24,7 +22,7 @@ Para configurar e rodar o projeto em sua máquina local, siga os passos abaixo.
 1.  **Clone o Repositório**
 
     ```bash
-    git clone [https://docs.github.com/articles/referencing-and-citing-content](https://github.com/Ceciany/desafio_tecnico_cypress.git)
+    git clone https://github.com/Ceciany/desafio_tecnico_cypress.git
     cd desafio_tecnico_cypress
     ```
 
@@ -90,3 +88,4 @@ O projeto automatiza as seguintes funcionalidades:
   * **Adição Múltipla**: Testa a capacidade de adicionar múltiplos registros de forma sequencial, usando dados aleatórios.
   * **Paginação**: Verifica se a paginação da tabela funciona corretamente, permitindo a navegação entre as páginas.
   * **Busca de Dados**: Confirma que o sistema exibe a mensagem correta quando um usuário busca por um registro que não existe na tabela.
+
