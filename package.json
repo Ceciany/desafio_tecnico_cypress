@@ -1,0 +1,21 @@
+{
+  "name": "desafio_tecnico_cypress",
+  "version": "1.0.0",
+  "description": "Automação Web - Academia QE - Accenture - 2025",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ceciany",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "stepDefinitions": "cypress/support/step-definitions/"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "cypress": "^14.5.4",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-real-events": "^1.14.0"
+  }
+}
